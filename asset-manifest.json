@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/useBook/static/css/main.9c78907b.css",
-    "main.js": "/useBook/static/js/main.1bf13d79.js",
-    "index.html": "/useBook/index.html",
-    "main.9c78907b.css.map": "/useBook/static/css/main.9c78907b.css.map",
-    "main.1bf13d79.js.map": "/useBook/static/js/main.1bf13d79.js.map"
+    "main.css": "/useBooks/static/css/main.9c78907b.css",
+    "main.js": "/useBooks/static/js/main.1bf13d79.js",
+    "index.html": "/useBooks/index.html",
+    "main.9c78907b.css.map": "/useBooks/static/css/main.9c78907b.css.map",
+    "main.1bf13d79.js.map": "/useBooks/static/js/main.1bf13d79.js.map"
   },
   "entrypoints": [
     "static/css/main.9c78907b.css",
