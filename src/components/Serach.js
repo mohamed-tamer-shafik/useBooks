@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useKeyEvents } from "../hooks/useKeyEvents";
 
 export default function Search({
@@ -7,15 +7,14 @@ export default function Search({
   onSearchChange,
 }) {
   const searchFieldEl = useRef(null);
-  useKeyEvents("Enter", action, intialCallBack);
+  useKeyEvents("Enter", action);
   function action() {
     if (document.activeElement === searchFieldEl.current) return;
     setSearchQuery("");
     intialCallBack();
   }
-  function intialCallBack() {
-    searchFieldEl.current.focus();
-  }
+  const intialCallBack = () => searchFieldEl.current.focus();
+  useEffect(intialCallBack, []);
   return (
     <input
       type="text"
