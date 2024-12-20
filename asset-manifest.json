@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/useBook/static/css/main.9c78907b.css",
+    "main.js": "/useBook/static/js/main.1bf13d79.js",
+    "index.html": "/useBook/index.html",
+    "main.9c78907b.css.map": "/useBook/static/css/main.9c78907b.css.map",
+    "main.1bf13d79.js.map": "/useBook/static/js/main.1bf13d79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c78907b.css",
+    "static/js/main.1bf13d79.js"
+  ]
+}
